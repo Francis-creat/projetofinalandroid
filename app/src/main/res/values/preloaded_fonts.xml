@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/cormorant_light_italic</item>
+        <item>@font/flamenco_light</item>
+        <item>@font/hind_guntur_light</item>
+        <item>@font/viga</item>
+    </array>
+</resources>

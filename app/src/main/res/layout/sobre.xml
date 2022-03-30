@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sobre">
+
+    <ImageView
+        android:id="@+id/imBanner"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bannerclinica" />
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="96dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="73dp"
+            android:layout_height="62dp"
+            app:srcCompat="@drawable/logo_transparente" />
+
+        <TextView
+            android:id="@+id/splashTitulo"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:elegantTextHeight="true"
+            android:fontFamily="@font/hind_guntur_light"
+            android:freezesText="false"
+            android:text="@string/splashTitulo"
+            android:textAllCaps="false"
+            android:textColor="#4fc3f7"
+            android:textIsSelectable="true"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="315dp"
+        android:layout_height="299dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imBanner"
+        app:layout_constraintVertical_bias="0.868">
+
+        <TextView
+            android:id="@+id/mtTextoSobre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mtTextoSobre1"
+            android:textSize="18.5sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/mtTextoSobre2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mtTextoSobre2"
+            android:textSize="18.5sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/mtTextoSobre3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mtTextoSobre3"
+            android:textSize="18.5sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

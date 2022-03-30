@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Agendamento"
+    android:background="@drawable/fundo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Agendamento">
+
+    <ScrollView
+        android:id="@+id/scTela3"
+        android:layout_width="412dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:id="@+id/lvTela3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloTela3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fundo"
+                android:elegantTextHeight="true"
+                android:fontFamily="@font/hind_guntur_light"
+                android:freezesText="false"
+                android:minHeight="48dp"
+                android:text="@string/tituloTela3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNome"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvNome"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNome"
+                android:layout_width="278dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:hint="@string/etNome"
+                android:inputType="textPersonName"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/tvCpf"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvCpf"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etCpf"
+                android:layout_width="278dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:hint="@string/etCpf"
+                android:inputType="phone"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvEmail"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="278dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:hint="@string/etEmail"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/tvTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvTelefone"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etTelefone"
+                android:layout_width="278dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:hint="@string/etTelefone"
+                android:inputType="phone"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvEspecialidade"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/fundo"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvEspecialidade"
+                android:textAlignment="center"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgEspecialidades"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="205dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RadioButton
+                            android:id="@+id/rbDermato"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#AB29B6F6"
+                            android:text="@string/rbDermato"
+                            android:textSize="15sp" />
+
+                        <RadioButton
+                            android:id="@+id/rbGineco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#AB29B6F6"
+                            android:text="@string/rbGineco"
+                            android:textSize="15sp" />
+
+                        <RadioButton
+                            android:id="@+id/rbUrologista"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#AB29B6F6"
+                            android:text="@string/rbUrologista"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="205dp"
+                        android:layout_height="142dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RadioButton
+                            android:id="@+id/rbClinicoGeral"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#AB29B6F6"
+                            android:checked="true"
+                            android:text="@string/rbClinicoGeral" />
+
+                        <RadioButton
+                            android:id="@+id/rbOftalmo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#AB29B6F6"
+                            android:text="@string/rbOftalmo" />
+
+                        <RadioButton
+                            android:id="@+id/rbOtorrino"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#AB29B6F6"
+                            android:text="@string/rbOtorrino" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvData"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etData"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:hint="@string/etData"
+                android:inputType="date"
+                android:minHeight="48dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/tvHorario"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/hind_guntur_light"
+                android:text="@string/tvHorario"
+                android:textColor="#B7000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spHorario"
+                android:layout_width="205dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:entries="@array/spHorario" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/btnLimpar"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="56dp"
+                    android:fontFamily="@font/hind_guntur_light"
+                    android:text="@string/btnLimpar"
+                    android:textAllCaps="false"
+                    android:textColor="#B7000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/btnAgendar"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hind_guntur_light"
+                    android:text="@string/btnAgendar"
+                    android:textAllCaps="false"
+                    android:textColor="#B7000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/logoTela2"
+        android:layout_width="205dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/logo_transparente" />
+
+    <TextView
+        android:id="@+id/tituloTela2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/hind_guntur_light"
+        android:freezesText="false"
+        android:text="@string/splashTitulo"
+        android:textAllCaps="false"
+        android:textColor="#0091EA"
+        android:textIsSelectable="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <LinearLayout
+        android:id="@+id/lvTela2"
+        android:layout_width="308dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloTela2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btnAgendarConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1e88e5"
+            android:backgroundTintMode="src_in"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="@string/btnAgendarConsulta"
+            android:textAllCaps="false"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#1e88e5"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="@string/btnConsultar"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btnContato"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#1e88e5"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="@string/btnContato"
+            android:textAllCaps="false"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btnSobreNos"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#1e88e5"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="@string/btnSobreNos"
+            android:textAllCaps="false"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

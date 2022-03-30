@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuHome"
+        android:title="@string/menuHome"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menuAgendamento"
+        android:icon="@drawable/logo_transparente"
+        android:title="@string/menuAgendamento"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menuConsulta"
+        android:title="@string/menuConsulta" />
+</menu>

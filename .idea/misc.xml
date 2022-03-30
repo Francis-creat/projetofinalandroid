@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/drawable/fundo.xml" value="0.1715" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/drawable/gredient_background.xml" value="0.1715" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/font/.xml" value="0.1" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/font/baloo_thambi.xml" value="0.1" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/agendamento.xml" value="0.22" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/consulta.xml" value="0.22" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/contato.xml" value="0.33" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/home.xml" value="0.22" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/layout_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/layout/sobre.xml" value="0.33" />
+        <entry key="..\:/Users/QI/francis/ProjetoFinal/app/src/main/res/menu/nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/agendamento.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/consulta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/contato.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/layout_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/layout/sobre.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/francis.landarin/Desktop/ProjetoFinal/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

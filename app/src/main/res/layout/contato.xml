@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contato">
+
+    <TextView
+        android:id="@+id/mtGrupo"
+        android:layout_width="312dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:breakStrategy="high_quality"
+        android:ems="10"
+        android:fontFamily="@font/cormorant_light_italic"
+        android:gravity="start|top"
+        android:text="Nosso aplicativo conta com a melhor equipe de desenvolvimento android do pais: Francis Cappola, Luigi Britz e Fellype Rosa."
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvConsulta" />
+
+    <TextView
+        android:id="@+id/tvConsulta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="627dp"
+        android:background="@drawable/fundo"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/hind_guntur_light"
+        android:freezesText="false"
+        android:text="@string/tvContato"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#B7000000"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/mtGrupo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="337dp"
+        android:layout_height="538dp"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvConsulta">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/tvEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvEndereco"
+            android:textColor="#444A4E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/mtEndereco"
+            android:layout_width="351dp"
+            android:layout_height="79dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="@string/mtEndereco"
+            android:textSize="18.5sp" />
+
+        <TextView
+            android:id="@+id/mtAtendimento"
+            android:layout_width="351dp"
+            android:layout_height="79dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="@string/mtAtendimento"
+            android:textSize="18.5sp" />
+
+        <TextView
+            android:id="@+id/tvEmailContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/tvEmailContato"
+            android:textColor="#444A4E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/mtEmail"
+            android:layout_width="351dp"
+            android:layout_height="79dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:textSize="18.5sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tvTelefoneContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTelefoneContato"
+            android:textColor="#444A4E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="79dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="@string/mtTelefoneContato"
+            android:textSize="18.5sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
